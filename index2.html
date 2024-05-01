@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    :root {
+        scroll-behavior: smooth;
+    } 
+    
+
+    *,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5eeee;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 9px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+nav div img {
+     width: 50px;
+     border-radius: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 500ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+nav ul li a:hover{
+    color: orangered;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.gambar > img{
+    width: 100%;
+    padding: 5px;
+}
+
+#tentang {
+    padding: 10px;
+}
+
+#tentang > h3 {
+    text-align: center;
+}
+
+.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .box {
+            width: 170px;
+            height: 100px;
+            background-color: crimson;
+            border-radius: 7px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+        .arrow {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .text {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .profile {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#contact > h2 {
+    text-align: center;
+}
+</style>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Jaglo.jpg" alt="anjay">
+        </div>
+
+        <div class="judul">
+            <h1>Kelas 10 TKJ</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#tentang">About Us</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <H1>SELAMAT DATANG </H1>
+    <section id="home">
+    <div class="gambar">
+    <img src="Mentahan1.jpg" alt="foto bersama ">
+    </section>
+
+     <section id="tentang">
+      <h1>About Us</h1>
+      <p>Kelas 10 TKJ SMK ABDI SEJATI KERASAAN 1 adalah tempat di mana semangat belajar bagi 34 orang tak pernah padam. Kami berkomitmen untuk menciptakan lingkungan yang merangsang, mendukung, dan menginspirasi setiap siswa untuk mencapai potensi terbaik mereka.</p>
+      <h3>Struktur Kelas 10 TKJ </h3>
+      <div class="container">
+        <div class="box">Mauritz Gultom,S.Kom</div>
+        <div class="text">Wali Kelas</div>
+        <div class="arrow">↓</div>
+        <div class="box">Josua A. Sinambela</div>
+        <div class="text">Ketua Kelas</div>
+        <div class="arrow">↓</div>
+        <div class="box">Riska D Sinaga</div>
+        <div class="text">Bendahara </div>
+        <div class="arrow">↓</div>
+        <div class="box">Christtina Lubis</div>
+        <div class="text">Sekretaris</div>
+        <div class="arrow">↓</div>
+        <div class="box">Anggota Kelas</div>
+        <div class="text">Anggota</div>
+    </div>
+     </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="profile">
+            <h1>@x_tkj_abdi_sejati</h1>
+            <p>Bio: about x tkj</p>
+            <p>Boys : 15 </p>
+            <p>Girls : 19</p>
+            <p>People : 34</p>
+        </div>
+
+    </section>
+
+    </div>
+</body>
+</html>
